@@ -39,3 +39,31 @@
     padding-top: 70px;
     margin-top: 20px;
 }
+
+/* SECCIÓN QUIENES SOMOS */
+.section__nosotras {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foto__alumna {
+    width: 150px;
+}
+
+.alumna {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.alumna__hijo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
