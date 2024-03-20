@@ -50,3 +50,14 @@
     padding-top: 70px;
     margin-top: 20px;
 }
+
+.titlesfor{
+    color: var(--verdeos);
+}
+
+.fortalezascontainer{
+    background-color: var(--grisfondo);
+    display: flex;
+    flex-direction: column;
+
+}
