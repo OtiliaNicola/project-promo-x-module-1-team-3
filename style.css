@@ -1,1 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.title{
+    display: flex;
+    justify-self: center;
+}
+
+.image_nav{
+    
+}
+
+.main{
+    display: block;
+}
