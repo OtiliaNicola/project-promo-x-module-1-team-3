@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root{
@@ -12,7 +13,7 @@
     --grisoscu:#54585a;
     --griscla: #b8b8b9;
     --grisfondo:#f1f1f1;
-    font-family: open sans;
+    --font-family: op;
 }
 
 .header{
@@ -24,6 +25,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px 0; 
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    list-style: none;
 }
 
 .slogan{
@@ -39,24 +57,7 @@
 .slogan-text{
     background-color: var(--blanco);
     width: 320px;
- 
-    
-
 }
-
-
-
-.title{
-    display: flex;
-    justify-self: center;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    line-height: 30px;
-    padding: 15px 0;
-   
-}
-
 
 .main{
     display: block;
@@ -67,6 +68,7 @@
 .team{
     padding: 20px;
 }
+
 .titlesfor{
     color: var(--verdeos);
 }
@@ -78,7 +80,6 @@
     width: 30px;
     transform: rotate(45deg) translate(  -50%, -20%);
     position: sticky;
-  
 }
 
 .containerstrong{
@@ -108,7 +109,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-
 }
  
 .photo{
