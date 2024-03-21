@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: opensans;
+    font-family: Open Sans;
 }
 
 :root{
@@ -68,14 +68,30 @@
     width: 320px;
 }
 
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: opensans;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--grisoscu);
+    padding: 16px;
+}
+.title-team{
+    color: var(--verdecla);
+    font-family: Rubik;    
+    font-weight: 500;
+    line-height: 1.88;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
 .main{
     display: block;
     padding-top: 70px;
     margin-top: 20px;
-}
-
-.team{
-    padding: 20px;
 }
 
 .titlesfor{
@@ -123,3 +139,36 @@
 .photo{
     width: 150px;
 }
+
+.retangle{
+    display: flex;
+    width: 320px;
+    height: 250px;
+    padding: 30px 74px 45px;
+    background-color: var(--blanco);
+    border: solid 1px var(--griscla);    
+}
+
+.footer{
+    text-align: center;    
+}
+
+.name-group{
+    color: var(--griscla);
+    font-size: 14px;
+    line-height: 1.43;
+}
+a{
+    color: var(--grisoscu);
+    text-decoration: none;
+    font-size: 14px;  
+    font-weight: 600;   
+}
+
+.logo-adalab{
+    width: 115.9px;
+    height: 45px;
+    margin: 30px 28.1px 0 28px;
+    background-color: var(--blanco);        
+}
+
