@@ -18,16 +18,32 @@
 .header{
     width: 100%;
     position: fixed;
-    z-index: 1;
-}
-
-.header__hijo{
-    width: 100%;
+    background-color: #099d8d;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.slogan{
+    background-image: url("./imgs/foto-cabecera.jpg");
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    
+}
+
+.slogan-text{
+    background-color: var(--blanco);
+    width: 320px;
+ 
+    
+
+}
+
+
 
 .title{
     display: flex;
@@ -40,10 +56,6 @@
    
 }
 
-.compu{
- width: 100%;
- height: 100%;
-}
 
 .main{
     display: block;
@@ -51,13 +63,53 @@
     margin-top: 20px;
 }
 
+.team{
+    padding: 20px;
+}
 .titlesfor{
     color: var(--verdeos);
 }
 
-.fortalezascontainer{
-    background-color: var(--grisfondo);
+.box{
+    background-color: var(--blanco);
+    margin: 0 auto;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg) translate(  -50%, -20%);
+    position: relative;
+    z-index: 100;
+}
+
+.containerstrong{
+    background-color: var(--grisoscu);
     display: flex;
     flex-direction: column;
+}
 
+.container-us{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.girls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.girls-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+ 
+.photo{
+    width: 150px;
 }
