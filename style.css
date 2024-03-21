@@ -50,6 +50,7 @@
 
 .slogan{
     background-image: url("./imgs/foto-cabecera.jpg");
+    background-repeat: no-repeat;
     height: 421px;
     display: flex;
     flex-direction: column;
