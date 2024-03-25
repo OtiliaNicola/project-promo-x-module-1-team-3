@@ -8,12 +8,11 @@
 @import 'pages/index';
 */
 
+@import 'core/variables';
 @import 'core/reset';
 
 
-
-:root{
-    font-family: Opensans;
+:root {
     --verdeos:#099d8d;
     --verdecla:#14d9c4;
     --blanco:#ffffff;
@@ -21,6 +20,7 @@
     --grisoscu:#54585a;
     --griscla: #b8b8b9;
     --grisfondo:#f1f1f1;
+    font-family: 'Open Sans';
 }
 
 
@@ -28,7 +28,7 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-    background-color: #099d8d;
+    background-color: var(--verdeos);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,15 +54,15 @@
 
 .principal-menu{
     width: 100vw;
-    /* margin: 15px; */
-    padding-left: 15px;
-    padding-right: 15px;
     display: block;
 }
 
 .slogan{
-    background-image: url("/public/images/foto-cabecera.jpg");
+    background-image: url("../images/foto-cabecera.jpg");
     background-repeat: no-repeat;
+    width: 100vw;
+    background-size: contain;
+    background-position-y: bottom;
     height: 421px;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
 
 @media screen and (min-width: 480px) {
     .seccion-plan{    
-        background-image: url("/public/images/foto-cabecera.jpg");
+        background-image: url("../images/foto-cabecera.jpg");
     }   
 }
 
@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: opensans;
+    font-family: 'Open Sans';
     text-align: center;
     font-size: 20px;
     line-height: 1.5;
@@ -115,7 +115,7 @@
 }
 
 .containerstrong{
-    background-color: var(--grisoscu);
+    background-color: var(--grisfondo);
     display: flex;
     flex-direction: column;
 }
@@ -145,12 +145,15 @@
 }
 
 .girls-text{
-    font-family: opensans;
+    font-family: 'Open Sans';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 45px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .girls-text-title {
@@ -190,17 +193,10 @@
     color: var(--grisoscu);
 }
 
-/* .rectangle{
-    display: flex;
-    width: 320px;
-    height: 250px;
-    padding: 30px 74px 45px;
-    background-color: var(--blanco);
-    border: solid 1px var(--griscla);    
-} */
-
 .footer{
-    text-align: center;    
+    text-align: center;
+    border-top: solid 1px var(--griscla);   
+    padding: 30px 45px; 
 }
 
 .name-group{
@@ -208,11 +204,16 @@
     font-size: 14px;
     line-height: 1.43;
 }
+
 a{
     color: var(--grisoscu);
     text-decoration: none;
     font-size: 14px;  
     font-weight: 600;   
+}
+.list {
+    list-style: none;
+    padding-top: 20px;
 }
 
 .logo-adalab{
