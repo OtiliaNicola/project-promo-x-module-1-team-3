@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Open Sans;
+    font-family: opensans;
 }
 
 :root{
@@ -44,8 +44,11 @@
 }
 
 .principal-menu{
-    margin: 15px;
-    padding: 15px;
+    width: 100vw;
+    /* margin: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
 }
 
 .slogan{
@@ -79,6 +82,7 @@
     color: var(--grisoscu);
     padding: 16px;
 }
+
 .title-team{
     color: var(--verdeos);
     font-family: Rubik;    
@@ -86,12 +90,6 @@
     line-height: 1.88;
     font-size: 24px;
     margin-top: 35px;
-}
-
-.main{
-    display: block;
-    padding-top: 70px;
-    margin-top: 20px;
 }
 
 .titlesfor{
@@ -115,39 +113,84 @@
 
 .container-us{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us {
+    font-family: Rubik; 
+    color: var(--verdeos);
+    font-weight: 500;
+    line-height: 1.88;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .girls{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .girls-text{
+    font-family: opensans;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: stretch;
-}
- 
-.photo{
-    width: 150px;
+    align-items: center;
+    padding-bottom: 45px;
 }
 
-.retangle{
+.girls-text-title {
+    color: var(--negro);
+    font-weight: 500;
+    line-height: 1.88;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+ 
+.girls-text-description {
+    color: var(--grisoscu);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+/* Ver de poner las fotos como fondo de imagen, como en ejercicio 1, tema 1.1 */
+.photo{
+    width: 180px;
+    /* border: 15px;
+    border-color: red; */
+}
+
+.rrss {
+    color: var(--verdeos);
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.rrss span {
+    color: var(--grisoscu);
+}
+
+/* .rectangle{
     display: flex;
     width: 320px;
     height: 250px;
     padding: 30px 74px 45px;
     background-color: var(--blanco);
     border: solid 1px var(--griscla);    
-}
+} */
 
 .footer{
     text-align: center;    
