@@ -1,17 +1,25 @@
     <article class="girls">
         <img src="{=$imagen}" alt="foto chica"
-            class="photo">
-        <div class="girls-text">
-            <h3>{=$name}</h3>
-            <p>{=$descripcion}</p>
-            <div class="rrss">
-                <i class="fa-brands fa-x-twitter"></i>
+            class="girls__photo">
+        <div class="girls__section">
+            <h3 class="girls__section--name">{=$name}</h3>
+            <p class="girls__section--description">{=$descripcion}</p>
+            <div class="girls__section--rrss">
+                <a href="{=$xtwitter}" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
                 <span>·</span>
-                <i class="fa-brands fa-linkedin"></i>
+                <a href="{=$linkedin}" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
                 <span>·</span>
-                <i class="fa-brands fa-github-alt"></i>
+                <a href="{=$github}" target="_blank">
+                    <i class="fa-brands fa-github-alt"></i>
+                </a>
                 <span>·</span>
-                <i class="fa-solid fa-envelope"></i>
+                <a href="{=$email}" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
             </div>
         </div>
     </article>
