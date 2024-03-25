@@ -8,8 +8,9 @@
 @import 'pages/index';
 */
 
-@import 'core/variables';
 @import 'core/reset';
+@import 'core/variables';
+
 
 
 :root {
@@ -20,7 +21,7 @@
     --grisoscu:#54585a;
     --griscla: #b8b8b9;
     --grisfondo:#f1f1f1;
-    font-family: 'Open Sans';
+    font-family: "Rubik", sans-serif;
 }
 
 
@@ -33,9 +34,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    opacity: 1;
 }
 
 .title{
+    color: var(--blanco);
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -47,6 +50,7 @@
 }
 
 .menu{
+    color: var(--blanco);
     display: flex;
     gap: 10px;
     list-style: none;
@@ -58,15 +62,13 @@
 }
 
 .slogan{
-    background-image: url("../images/foto-cabecera.jpg");
+    background: url(../images/foto-cabecera.jpg) center center;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
-    background-size: contain;
-    background-position-y: bottom;
     height: 421px;
     display: flex;
     flex-direction: column;
-    justify-content: end;  
+    justify-content: flex-end;
 }
 
 @media screen and (min-width: 480px) {
