@@ -88,6 +88,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 
 @media screen and (min-width: 480px) {
@@ -99,10 +100,12 @@
 .slogan-text{
     font-weight: bold;
     background-color: var(--blanco);
-    width: 320px;
+    width: 290px;
     padding: 15px;
     margin: 0 15px;
     font-size: 18px;
+    position: absolute;
+    transform: translateY(40px);
 }
 
 .team{
