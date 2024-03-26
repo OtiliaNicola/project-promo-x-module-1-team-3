@@ -227,12 +227,11 @@
     color: var(--grisoscu);
 }
 
-@media all and (min-width:768px) {
+@media screen and (min-width:768px) {
     .aboutus__title {
         padding-top: 45px;
         padding-bottom: 45px;
     }
-    
     .girls {
         display: flex;
         flex-direction: row;
@@ -250,35 +249,29 @@
         text-align: right;
      }
     }
-
     .girls__section {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
-        padding-left: 30px;
-        padding-right: 45px;
+        // padding-left: 30px;
+        // padding-right: 45px;
     }
-
     .girls__section--name {
         padding-top: 0;
     }
-
     .girls__section--description {
         padding-left: 0;
         padding-right: 0;
         text-align:start;
         line-height: 1.5;
     }
-    
     .girls__section--rrss {
         padding-bottom: 60px;
     }
-
 }
 
 @media all and (min-width:1200px) {
-
 
 
 }
