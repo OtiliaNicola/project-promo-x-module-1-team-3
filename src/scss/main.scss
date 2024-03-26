@@ -238,15 +238,16 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-evenly;
+        padding: .5rem 1.5rem;
     }
 
     .aboutus article:nth-child(odd) {
         flex-direction: row-reverse;
         .girls__section{
             align-items: flex-end;
-            .girls__section--description{
-                
-            }
+     }
+     p{
+        text-align: right;
      }
     }
 
@@ -265,6 +266,7 @@
 
     .girls__section--description {
         padding-left: 0;
+        padding-right: 0;
         text-align:start;
         line-height: 1.5;
     }
