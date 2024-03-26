@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .title{
@@ -56,6 +56,10 @@
     list-style: none;
 }
 
+.menu-li{
+    color: var(--blanco);
+}
+
 .principal-menu{
     width: 100vw;
     display: block;
@@ -69,6 +73,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -80,6 +85,9 @@
 .slogan-text{
     background-color: var(--blanco);
     width: 320px;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 18px;
 }
 
 .team{
