@@ -110,6 +110,20 @@
     transform: translateY(40px);
 }
 
+.text-team{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+    @media screen and (min-width:768px){
+    padding: 45px 45px 30px;
+    }
+    @media screen and (min-width:1200px){
+        padding: 45px 300px 60px 299px;
+        
+    }
+}
+
 .team{
     display: flex;
     flex-direction: column;
@@ -123,7 +137,7 @@
 }
 
 .title-team{
-    color: var(--verdeos);
+    color: var(--verdecla);
     font-family: Rubik;    
     font-weight: 500;
     line-height: 1.88;
@@ -295,6 +309,11 @@
     text-align: center;
     border-top: solid 1px var(--griscla);   
     padding: 30px 45px; 
+    
+    @media screen and (min-width:768px){
+        display: flex;
+        justify-content: space-between;
+        }
 }
 
 .name-group{
@@ -318,6 +337,6 @@ a{
     width: 115.9px;
     height: 45px;
     margin: 30px 28.1px 0 28px;
-    background-color: var(--blanco);        
+    background-color: var(--blanco);  
 }
 
