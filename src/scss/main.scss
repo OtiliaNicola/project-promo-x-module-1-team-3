@@ -133,6 +133,9 @@
 
 .titlesfor{
     color: var(--verdeos);
+    font-size: 22px;
+    text-align: center;
+    width: 100vw;
 }
 
 .box{
@@ -140,14 +143,21 @@
     margin: 0 auto;
     height: 30px;
     width: 30px;
-    transform: rotate(45deg) translate(  -50%, -20%);
-    position: sticky;
+    top:0;
+    left:0;
+    transform: translate(50vw, -50%) rotate(45deg);
+    position: absolute;
 }
 
 .containerstrong{
     background-color: var(--grisfondo);
     display: flex;
     flex-direction: column;
+    text-align: center;
+    gap:30px;
+    position: relative;
+    padding: 30px 15px 45px;
+    
 }
 
 // QUIENES SOMOS
