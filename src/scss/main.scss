@@ -37,7 +37,7 @@
     text-align: center;
     background-color: #099d8d;
     font-family: "Rubik", sans-serif;
-    font-size: 16px;
+    font-size: 2.5rem;
     line-height: 30px;
     padding: 15px 0;
     color: white;
@@ -82,8 +82,8 @@
 }
 
 .slogan{
-    background: url("../images/foto-cabecera.jpg") center center;
-    background-size: cover;
+    background: url("../images/logo_grupo3.png") center center;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
     height: 421px;
     display: flex;
@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 480px) {
     .seccion-plan{    
-        background-image: url("../images/foto-cabecera.jpg");
+        background-image: url("../images/logo_grupo3.png");
     }   
 }
 
