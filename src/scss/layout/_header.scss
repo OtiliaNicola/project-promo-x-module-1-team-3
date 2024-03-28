@@ -1,0 +1,48 @@
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.header__title{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    font-size: 2.5rem;
+    line-height: 30px;
+    padding: 15px 0;
+    color: white;
+    opacity: 0.8;
+}
+
+.title{
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Rubik'
+}
+
+.navegador{
+    background-color: #14d9c4;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.menu{
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu-li{
+    color: var(--blanco);
+}

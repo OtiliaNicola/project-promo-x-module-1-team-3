@@ -1,0 +1,25 @@
+
+.slogan{
+    background: url("../images/fondo.png") center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 42.1rem;
+}
+
+@media screen and (min-width: 480px) {
+    .seccion-plan{    
+        background-image: url("../images/fondo.png");
+    }   
+}
+
+.slogan-text{
+    font-weight: bold;
+    background-color: var(--blanco);
+    width: 290px;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 18px;
+    position: absolute;
+    transform: translateY(40px);
+}

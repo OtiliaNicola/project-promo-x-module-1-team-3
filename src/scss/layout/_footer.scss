@@ -1,0 +1,35 @@
+
+.footer{
+    text-align: center;
+    border-top: solid 1px var(--griscla);   
+    padding: 30px 45px; 
+    
+    @media screen and (min-width:768px){
+        display: flex;
+        justify-content: space-between;
+        }
+}
+
+.name-group{
+    color: var(--griscla);
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+a{
+    color: var(--grisoscu);
+    text-decoration: none;
+    font-size: 14px;  
+    font-weight: 600;   
+}
+.list {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.logo-adalab{
+    width: 115.9px;
+    height: 45px;
+    margin: 30px 28.1px 0 28px;
+    background-color: var(--blanco);  
+}
