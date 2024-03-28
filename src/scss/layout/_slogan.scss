@@ -1,16 +1,11 @@
 
-.slogan{
-    background: url("../images/fondo.png") center center;
+.slogan-image{
+    background: url("../images/fondo.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-    min-height: 42.1rem;
-}
-
-@media screen and (min-width: 480px) {
-    .seccion-plan{    
-        background-image: url("../images/fondo.png");
-    }   
+    height: 15rem;
+    width: 100vw;
 }
 
 .slogan-text{
@@ -23,3 +18,23 @@
     position: absolute;
     transform: translateY(40px);
 }
+
+
+@media screen and (min-width: 768px) {
+    .seccion-plan{    
+        background-image: url("../images/fondo.png");
+        background-size: 100% 100%;
+        min-height: 31.1rem;
+    }   
+}
+
+
+@media screen and (min-width: 1200px) {
+   
+}
+/*
+@media screen and (min-width: ){
+    
+}*/
+
+
