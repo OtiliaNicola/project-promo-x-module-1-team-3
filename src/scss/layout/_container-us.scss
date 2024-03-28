@@ -1,18 +1,19 @@
-// QUIENES SOMOS
 .aboutus {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    
 
-.aboutus__title {
-    font-family: Rubik; 
-    color: var(--verdeos);
-    font-weight: 500;
-    line-height: 1.88;
-    font-size: 24px;
-    padding-top: 30px;
-    padding-bottom: 25px;
+    &__title {
+        font-family: Rubik; 
+        color: var(--verdeos);
+        font-weight: 500;
+        line-height: 1.88;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
 }
 
 .girls {
@@ -21,64 +22,63 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-}
-
-.girls__section {
-    font-family: 'Open Sans';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+
+    &__photo {
+        width: 180px;
+        border: solid 5px;
+        border-color: var(--grisfondo);
+        border-radius: 10px;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 40px;
+
+        &--name {
+            color: var(--negro);
+            font-weight: 500;
+            line-height: 1.88;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            
+        }
+        &--description {
+            display: flex;
+            color: var(--grisoscu);
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.5;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        &--rrss {
+            font-size: 16px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding-top: 15px;
+            
+
+            & a {
+                color: var(--verdeos);
+            }
+            & span {
+                color: var(--grisoscu);
+            }
+        }
+    }
 }
 
-.girls__section--name {
-    color: var(--negro);
-    font-weight: 500;
-    line-height: 1.88;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    
-}
- 
-.girls__section--description {
-    display: flex;
-    color: var(--grisoscu);
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.girls__photo {
-    width: 180px;
-    border: 5px solid;
-    border-color: #f1f1f1;
-    border-radius: 10px;
-}
-
-.girls__section--rrss {
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding-top: 15px;
-    padding-bottom: 40px;
-}
-
-.girls__section--rrss a {
-    color: var(--verdeos);
-}
-
-.girls__section--rrss span {
-    color: var(--grisoscu);
-}
 
 @media screen and (min-width:768px) {
     .aboutus__title {
@@ -93,38 +93,69 @@
         padding: .5rem 1.5rem;
     }
 
+    .girls__photo {
+        width: 205px;
+    }
+
     .aboutus article:nth-child(odd) {
         flex-direction: row-reverse;
+
         .girls__section{
             align-items: flex-end;
-     }
-     p{
-        text-align: right;
-     }
+         }
+
+        p{
+            text-align: right;
+        }
     }
+
     .girls__section {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
-        // padding-left: 30px;
-        // padding-right: 45px;
-    }
-    .girls__section--name {
-        padding-top: 0;
-    }
-    .girls__section--description {
-        padding-left: 0;
-        padding-right: 0;
-        text-align:start;
-        line-height: 1.5;
-    }
-    .girls__section--rrss {
+        padding-left: 30px;
+        padding-right: 30px;
         padding-bottom: 60px;
+
+        &--name {
+            padding-top: 0;
+        }
+
+        &--description {
+            padding-left: 0;
+            padding-right: 0;
+            text-align:start;
+            line-height: 1.5;
+        }
     }
+
 }
 
 @media all and (min-width:1200px) {
+    .girls {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 138px;
+        padding-right: 138px;
+        padding-bottom: 60px;
+    }
 
+    .girls__photo {
+        width: 278px;
+    }
+
+    .girls__section {
+        padding-left: 45px;
+        padding-right: 45px;
+        
+
+        &--description {
+            width: 500px;
+        }
+        
+    }
 
 }
