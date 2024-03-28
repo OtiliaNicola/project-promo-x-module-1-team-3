@@ -12,8 +12,8 @@
     background-color: #099d8d;
     font-family: "Rubik", sans-serif;
     font-size: 2.5rem;
-    line-height: 30px;
-    padding: 15px 0;
+    line-height: 20px;
+    padding: 10px 0;
     color: white;
     opacity: 0.8;
 }
@@ -38,11 +38,13 @@
 .menu{
     color: var(--blanco);
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     font-size: 1rem;
-    padding: 15px;
+    padding: 5px;
     gap: 10px;
     list-style: none;
+    
     &-li{
         color: var(--blanco);
         & a{
@@ -52,4 +54,9 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .menu-li{
+        display: inline-block;
+    }
+}
 
