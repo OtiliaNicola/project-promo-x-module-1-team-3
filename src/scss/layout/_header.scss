@@ -1,62 +1,80 @@
 
-.header{
+.header {
     width: 100%;
     position: fixed;
     z-index: 1;
-}
-
-.header__title{
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: #099d8d;
-    font-family: "Rubik", sans-serif;
-    font-size: 2.5rem;
-    line-height: 20px;
-    padding: 10px 0;
-    color: white;
-    opacity: 0.8;
-}
-
-.title{
-    color: var(--blanco);
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    width: 100%;
-    text-align: center;
-    font-size: large;
-    font-family: 'Rubik'
+    background-color: rgba(9, 157, 141, 0.85);
 }
 
-.navegador{
-    background-color: #14d9c4;
+.title {
     width: 100%;
-    opacity: 0.7;
-}
-
-.menu{
+    height: 60px;
+    text-transform: uppercase;
     color: var(--blanco);
+    font-family: "Rubik";
+    font-size: large;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.menu {
+    background-color: rgba(20, 217, 196, 0.5);
+    width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
     font-size: 1rem;
     padding: 5px;
     gap: 10px;
     list-style: none;
     
-    &-li{
+    &-li a{
         color: var(--blanco);
-        & a{
-            color: var(--blanco);
-            text-decoration: none;
-        }
+        font-family: "Rubik";
+        text-decoration: none;
     }
+    
 }
 
 @media screen and (min-width: 768px) {
-    .menu-li{
-        display: inline-block;
+
+    .header{
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        background-color: rgba(9, 157, 141, 0.9);
+        padding: 0 45px;
     }
+
+    .title {
+        background-color: rgba(9, 157, 141, 0);
+        width: 50%;
+        text-align: left;
+    }
+    
+    .menu {
+        background-color: rgba(9, 157, 141, 0);
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
 }
 
+@media screen and (min-width: 1200px) {
+
+    .header {
+        padding: 0 138px;
+    }
+
+}
