@@ -14,42 +14,31 @@
         grid-template-columns: 50% 50%;
         padding: 45px 45px 60px;
         gap: 0;
-       
-    
-      
-        
-    
     }
-
-
-    
 
     &_titlesfor{
         color:#099d8d;
         font-size: 22px;
         text-align: center;
         width: 100vw;
+
         @media screen and (min-width :768px){
             display:grid;
             grid-template-columns: 50% 50%;
-    
-
         }
 
         &-paragraph{
             padding-top: 15px;
             padding-left: 15px;
             padding-right: 15px;
-            @media screen and (min-width :768px){
-                padding: 10px;
-               
-            }
 
-            
-            
+            @media screen and (min-width :768px){
+                padding: 10px;  
+            }            
         }
 
     }
+    
     &-box{
         background-color: var(--blanco);
         margin: 0 auto;
