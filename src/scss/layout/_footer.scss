@@ -3,20 +3,17 @@
     text-align: center;
     border-top: solid 1px var(--griscla);   
     padding: 30px 45px; 
-    & a{
+    & .menu-li{
         color: var(--grisoscu);
         text-decoration: none;
         font-size: 14px;  
         font-weight: 600;   
     }
-    
-    @media screen and (min-width:768px){
-        display: flex;
-        justify-content: space-between;
-        }
 }
 
 .name-group{
+    display: flex;
+    justify-content: center;
     color: var(--griscla);
     font-size: 14px;
     line-height: 1.43;
@@ -24,12 +21,50 @@
 
 .list {
     list-style: none;
-    padding-top: 20px;
+    padding-inline-start: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .logo-adalab{
+    display: flex;
     width: 115.9px;
     height: 45px;
-    margin: 30px 28.1px 0 28px;
+    margin: auto;
     background-color: var(--blanco);  
 }
+
+/* TABLET */
+
+@media all and (min-width:768px) {    
+    .footer{
+        padding: 38.4px 9.6px 0 9.6px;
+    }
+    .nav-footer {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        height: 208px;
+        margin-right: 72px;
+      }    
+    .name-group{
+        justify-content: left;
+        margin-left: 72px;
+    }
+    .list{
+        font-weight: bold;
+        position: relative;
+        top: -64px;
+    }
+    .logo-footer-container {
+        display: flex;
+        height: 8px;
+    }
+    .logo-footer{
+        display: flex;        
+        position: relative;
+        top: -192px;
+        margin-left: 72px;
+    }      
+}
+    

@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 15rem;
+    height: 18rem;
     width: 100%;
 }
 
@@ -15,26 +15,28 @@
     padding: 5px;
     margin-left: 5px;
     font-size: 1rem;
-    transform: translateY(215px);
-    opacity: 0.7;
+    transform: translateY(250px);
 }
-
 
 @media screen and (min-width: 768px) {
-    .seccion-plan{    
-        background-image: url("../images/fondo.png");
-        background-size: 100% 100%;
-        min-height: 31.1rem;
-    }   
+    .slogan-image{
+        background: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 25rem;
+        width: 100%;
+    }  
+    .slogan-text{
+        font-weight: bold;
+        background-color: var(--blanco);
+        width: 390px;
+        padding: 15px;
+        margin-left: 30px;
+        font-size: 1.2rem;
+        transform: translateY(330px);
+        opacity: 0.7;
+    }
 }
-
-
-@media screen and (min-width: 1200px) {
-   
-}
-/*
-@media screen and (min-width: ){
-    
-}*/
 
 
