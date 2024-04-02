@@ -3,11 +3,19 @@
     border-top: solid 1px var(--griscla);   
     padding: 30px 45px; 
     & .menu-li{
-        color: var(--grisoscu);
+        color: var(--griscla);
         text-decoration: none;
         font-size: 14px;  
-        font-weight: 600;   
+        font-weight: 600;
+        line-height: 2.14;   
     }
+
+    
+}
+
+.menu-li:hover{
+    color: #14d9c4;
+    
 }
 
 .name-group{
@@ -32,6 +40,12 @@
     margin: auto;
     background-color: var(--blanco);  
 }
+
+.logo-footer{
+    width: 50%;
+}
+
+
 
 /* TABLET */
 
