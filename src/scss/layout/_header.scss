@@ -19,7 +19,7 @@
     padding: 20px 0;
 }
 
-.Logo-chicas{
+.Logo-chicas {
     width: 100px;
 }
 
@@ -34,18 +34,18 @@
     padding: 5px;
     gap: 10px;
     list-style: none;
-    
-    &-li a{
+
+    &-li a {
         color: var(--blanco);
         font-family: "Rubik";
         text-decoration: none;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) {
 
-    .header{
+    .header {
         width: 100vw;
         position: fixed;
         z-index: 1;
@@ -62,13 +62,12 @@
         width: 50%;
         text-align: left;
     }
-    
+
     .menu {
         background-color: rgba(9, 157, 141, 0);
         width: 50vw;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-    }    
+    }
 }
-
