@@ -2,14 +2,13 @@
     text-align: center;
     border-top: solid 1px var(--griscla);   
     padding: 30px 45px; 
-    & .menu-li{
-        color: var(--grisoscu);
-        text-decoration: none;
-        font-size: 14px;  
-        font-weight: 600;   
-    }
 }
-
+.menu-li{
+    color: var(--grisoscu);
+    text-decoration: none;
+    font-size: 14px;  
+    font-weight: 600;   
+}
 .name-group{
     display: flex;
     justify-content: center;
@@ -17,14 +16,12 @@
     font-size: 14px;
     line-height: 1.43px;
 }
-
 .list {
     list-style: none;
     padding-inline-start: 0;
     margin-bottom: 40px;
     margin-top: 40px;
 }
-
 .logo-adalab{
     display: flex;
     width: 115.9px;

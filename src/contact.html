@@ -26,20 +26,51 @@
         <section class="contacto">
             <article>
                 <h2 class="title-contacto">CONTACTO</h2>
-                <p class="text-contacto">¿Tiénes alguna pregunta?<br>Las Chicas del Código estamos para ayudarte.<br>Puedes rellenar nuestro formulario y nos pondremos en contacto contigo lo antes posible.            
+                <p class="text-contacto">¿Tiénes alguna pregunta?<br>Las Chicas del Código estamos para
+                    ayudarte.<br>Puedes rellenar nuestro formulario y nos pondremos en contacto contigo lo antes
+                    posible.
                 </p>
-                <h6 class="contact-sub">Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.</p>
+                <h6 class="contact-sub">Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.
+                    </p>
             </article>
         </section>
 
         <form action="">
-            <label for="">Nombre completo</label>
-            <label for="">Email</label>
-            <label for="">Teléfono</label>
-            <textarea>Que necesitas</textarea>
+
+            <div class="container-form">
+                <div class="container__1">
+                    <label for="name" class="form">Nombre completo<span class="asterisc">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Nombre..." class="input" required
+                        maxlength="40">
+                </div>
+
+                <div class="container__desktop">
+                    <div class="container__1">
+                        <label for="email" class="form">Email <span class="asterisc">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
+                            class="input" required maxlength="20">
+                    </div>
+
+                    <div class="container__1">
+                        <label for="phone" class="form">Teléfono</label>
+                         <input type="text" id="phone" name="phone" placeholder="Ej: 123456789" class="input"
+                        maxlength="10">
+                    </div>
+                </div>            
+
+                     <div class="container__1">
+                    <label for="mensage" class="form">Mensaje <span class="asterisc">*</span></label>
+                    <textarea class="mensage" name="mensage" id="mensage" placeholder="¿Qué necesitas?" required
+                    maxlength="200"></textarea>
+                     
+                 <input type="submit" class="button" value="ENVIAR" />
+                </div>
+            </div>
+        
         </form>
+
     </main>
-    
+    </form>
     <load src="./partials/footer.html" />
 </body>
 
