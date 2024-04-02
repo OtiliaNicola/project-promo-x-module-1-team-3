@@ -1,14 +1,15 @@
-.footer{
+.footer {
     text-align: center;
     border-top: solid 1px var(--griscla);   
     padding: 30px 45px; 
+    & .menu-li{
+        color: var(--grisoscu);
+        text-decoration: none;
+        font-size: 14px;  
+        font-weight: 600;   
+    }
 }
-.menu-li{
-    color: var(--grisoscu);
-    text-decoration: none;
-    font-size: 14px;  
-    font-weight: 600;   
-}
+
 .name-group{
     display: flex;
     justify-content: center;
@@ -22,21 +23,27 @@
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
 .logo-adalab{
     display: flex;
     width: 115.9px;
     height: 45px;
     margin: auto;
-    background-color: var(--blanco);  
+    background-color: var(--blanco);
+}
+
+.logo-footer {
+    width: 50%;
 }
 
 /* TABLET */
 
-@media screen and (min-width: 768px) {   
+@media screen and (min-width: 768px) {
 
-    .footer{
+    .footer {
         padding: 38.4px 9.6px 0 9.6px;
     }
+
     .nav-footer {
         display: flex;
         justify-content: flex-end;
@@ -44,22 +51,23 @@
         position: relative;
         margin-top: 20px;
         margin-right: 72px;
-      }    
-    .name-group{
+    }
+
+    .name-group {
         justify-content: left;
         margin-left: 72px;
     }
-    .list{
+
+    .list {
         font-weight: bold;
         position: relative;
         top: -64px;
     }
- 
-    .logo-footer{
-        display: flex;        
+
+    .logo-footer {
+        display: flex;
         position: relative;
         top: -125px;
         margin-left: 72px;
-    }      
+    }
 }
-    
