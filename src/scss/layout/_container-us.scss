@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 
     &__title {
-        font-family: Rubik; 
+        font-family: Rubik;
         color: var(--verdeos);
         font-weight: 500;
         line-height: 1.88;
@@ -48,8 +48,9 @@
             text-align: center;
             padding-top: 15px;
             padding-bottom: 5px;
-            
+
         }
+
         &--description {
             display: flex;
             color: var(--grisoscu);
@@ -67,11 +68,12 @@
             align-items: center;
             gap: 8px;
             padding-top: 15px;
-            
+
 
             & a {
                 color: var(--verdeos);
             }
+
             & span {
                 color: var(--grisoscu);
             }
@@ -85,6 +87,7 @@
         padding-top: 45px;
         padding-bottom: 45px;
     }
+
     .girls {
         display: flex;
         flex-direction: row;
@@ -100,11 +103,11 @@
     .aboutus article:nth-child(odd) {
         flex-direction: row-reverse;
 
-        .girls__section{
+        .girls__section {
             align-items: flex-end;
-         }
+        }
 
-        p{
+        p {
             text-align: right;
         }
     }
@@ -125,7 +128,7 @@
         &--description {
             padding-left: 0;
             padding-right: 0;
-            text-align:start;
+            text-align: start;
             line-height: 1.5;
         }
     }
@@ -150,12 +153,12 @@
     .girls__section {
         padding-left: 45px;
         padding-right: 45px;
-        
+
 
         &--description {
             width: 500px;
         }
-        
+
     }
 
 }

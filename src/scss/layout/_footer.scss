@@ -1,24 +1,22 @@
-.footer{
+.footer {
     text-align: center;
-    border-top: solid 1px var(--griscla);   
-    padding: 30px 45px; 
-    & .menu-li{
+    border-top: solid 1px var(--griscla);
+    padding: 30px 45px;
+
+    & .menu-li {
         color: var(--griscla);
         text-decoration: none;
-        font-size: 14px;  
+        font-size: 14px;
         font-weight: 600;
-        line-height: 2.14;   
+        line-height: 2.14;
     }
-
-    
 }
 
-.menu-li:hover{
+.menu-li:hover {
     color: #14d9c4;
-    
 }
 
-.name-group{
+.name-group {
     display: flex;
     justify-content: center;
     color: var(--griscla);
@@ -33,27 +31,26 @@
     margin-top: 40px;
 }
 
-.logo-adalab{
+.logo-adalab {
     display: flex;
     width: 115.9px;
     height: 45px;
     margin: auto;
-    background-color: var(--blanco);  
+    background-color: var(--blanco);
 }
 
-.logo-footer{
+.logo-footer {
     width: 50%;
 }
 
-
-
 /* TABLET */
 
-@media screen and (min-width: 768px) {   
+@media screen and (min-width: 768px) {
 
-    .footer{
+    .footer {
         padding: 38.4px 9.6px 0 9.6px;
     }
+
     .nav-footer {
         display: flex;
         justify-content: flex-end;
@@ -61,22 +58,23 @@
         position: relative;
         margin-top: 20px;
         margin-right: 72px;
-      }    
-    .name-group{
+    }
+
+    .name-group {
         justify-content: left;
         margin-left: 72px;
     }
-    .list{
+
+    .list {
         font-weight: bold;
         position: relative;
         top: -64px;
     }
- 
-    .logo-footer{
-        display: flex;        
+
+    .logo-footer {
+        display: flex;
         position: relative;
         top: -125px;
         margin-left: 72px;
-    }      
+    }
 }
-    
