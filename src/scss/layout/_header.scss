@@ -1,5 +1,5 @@
 .header {
-    width: 100%;
+    width: 100vw;
     position: fixed;
     z-index: 1;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 .title {
-    width: 100%;
+    width: 100vw;
     height: 60px;
     text-transform: uppercase;
     color: var(--blanco);
@@ -25,7 +25,7 @@
 
 .menu {
     background-color: rgba(20, 217, 196, 0.5);
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
