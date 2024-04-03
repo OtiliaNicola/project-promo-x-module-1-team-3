@@ -17,74 +17,100 @@
     
     
     <title>LAS CHICAS DEL CÓDIGO</title>
-  <link rel="stylesheet" href="./assets/contact-ef545549.css">
-  <link rel="stylesheet" href="./assets/main-24370a2e.css">
+  <link rel="stylesheet" href="./assets/contact-57f26f5c.css">
+  <link rel="stylesheet" href="./assets/main-1f1edd61.css">
 </head>
 
 <body>
     <header class="header">
-   
-   <h1 class="title">LAS CHICAS DEL CÓDIGO</h1> 
-
-   <nav class="navegador">
-      <ul class="menu">
-        <li class="menu-li">
-           <a href="#equipo">EQUIPO</a>
-        </li>
-        <li class="menu-li">
-           <a href="#quienes-somos">QUIÉNES SOMOS</a>
-        </li>
-        <li class="menu-li">
-           <a href="./contact.html">CONTACTO</a>
-        </li> 
-      </ul>
-   </nav>
-</header>
-
+        <h1 class="title">LAS CHICAS DEL CÓDIGO</h1>
+        <nav class="navegador">
+            <ul class="menu">
+                <li class="menu-li">
+                    <a href="./index.html#equipo">EQUIPO</a>
+                </li>
+                <li class="menu-li">
+                    <a href="./index.html#quienes-somos">QUIÉNES SOMOS</a>
+                </li>
+                <li class="menu-li">
+                    <a href="./index.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="banner-img"></div>
         <section class="contacto">
             <article>
                 <h2 class="title-contacto">CONTACTO</h2>
-                <p class="text-contacto">¿Tiénes alguna pregunta?<br>Las Chicas del Código estamos para ayudarte.<br>Puedes rellenar nuestro formulario y nos pondremos en contacto contigo lo antes posible.            
+                <p class="text-contacto">¿Tiénes alguna pregunta?<br>Las Chicas del Código estamos para
+                    ayudarte.<br>Puedes rellenar nuestro formulario y nos pondremos en contacto contigo lo antes
+                    posible.
                 </p>
-                <h6 class="contact-sub">Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.</p>
+                <h6 class="contact-sub">Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.
+                    </p>
             </article>
         </section>
 
         <form action="">
-            <label for="">Nombre completo</label>
-            <label for="">Email</label>
-            <label for="">Teléfono</label>
-            <textarea>Que necesitas</textarea>
+
+            <div class="container-form">
+                <div class="container__1">
+                    <label for="name" class="form">Nombre completo<span class="asterisc">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Nombre..." class="input" required
+                        maxlength="40">
+                </div>
+
+                <div class="container__desktop">
+                    <div class="container__1">
+                        <label for="email" class="form">Email <span class="asterisc">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
+                            class="input" required maxlength="20">
+                    </div>
+
+                    <div class="container__1">
+                        <label for="phone" class="form">Teléfono</label>
+                        <input type="text" id="phone" name="phone" placeholder="Ej: 123456789" class="input"
+                            maxlength="10">
+                    </div>
+                </div>
+
+                <div class="container__1">
+                    <label for="mensage" class="form">Mensaje <span class="asterisc">*</span></label>
+                    <textarea class="mensage" name="mensage" id="mensage" placeholder="¿Qué necesitas?" required
+                        maxlength="200"></textarea>
+
+                    <input type="submit" class="button" value="ENVIAR" />
+                </div>
+            </div>
+
         </form>
+
     </main>
-    
+    </form>
     <footer class="footer">
-    <span class="name-group">Las Chicas del Código © 2024</span>
-    <nav class="nav-footer">
-        <ul class="list">
-            <li>
-                <a class="menu-li" href="#equipo">EQUIPO</a>
-            </li>
-            <li>
-                <a class="menu-li" href="#quienes-somos">QUIÉNES SOMOS</a>
-            </li>
-            <li>
-                <a class="menu-li" href="/contact.html">CONTACTO</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="logo-footer-container">
-        <div class="logo-footer">
-            <a href="https://adalab.es/" target="_blank">
-                <img
-                class="logo-adalab"
-                src="./images/logo-adalab (1).png" alt="logo Adalab">
-            </a>
+        <span class="name-group">Las Chicas del Código © 2024</span>
+        <nav class="nav-footer">
+            <ul class="list">
+                <li>
+                    <a class="menu-li" href="./index.html#equipo">EQUIPO</a>
+                </li>
+                <li>
+                    <a class="menu-li" href="./index.html#quienes-somos">QUIÉNES SOMOS</a>
+                </li>
+                <li>
+                    <a class="menu-li" href="./index.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="logo-footer-container">
+            <div class="logo-footer">
+                <a href="https://adalab.es/" target="_blank">
+                    <img class="logo-adalab" src="./images/logo-adalab (1).png" alt="logo Adalab">
+                </a>
+            </div>
         </div>
-    </div>       
-</footer>
+    </footer>
 </body>
 
 </html>
