@@ -77,6 +77,10 @@
     margin-bottom: 60px;
     margin-top: 15px;
     border-radius: 8px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
 }
 .button:hover{
     background-color: var(--verdecla);  
