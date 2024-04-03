@@ -27,6 +27,7 @@
     color: var(--grisoscu);
     padding: 15px 15px;
 }
+
 .title-contacto{
     color: var(--verdeos);
     font-family: Rubik;    
@@ -58,12 +59,14 @@
     height: 45px;
     margin-top: 10px;
     margin-bottom: 15px;
+    padding-left: 10px;
 }
 .mensage{
     width: 290px;
     height: 105px;
     margin-top: 10px;
     margin-bottom: 15px; 
+    padding-left: 10px;
 }
 .button{
     display: block;
