@@ -36,7 +36,7 @@ export default defineConfig({
   publicDir: "../public",
   build: {
     minify: "esbuild",
-    outDir: "../docs",
+    outDir: "../dist",
     sourcemap: "inline",
     emptyOutDir: true,
     rollupOptions: {
